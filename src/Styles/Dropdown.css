@@ -1,0 +1,121 @@
+.select1{
+
+    width:350px;
+      /* margin-bottom: 30px !important; */
+      /* border-style: solid; */
+      background-color: #fff;
+  }
+  
+.inputLabel{
+    font-size:25px;
+}
+
+
+.search {
+    position: relative;
+    /* border-radius: theme.shape.borderRadius; */
+    /* border-radius: theme.shape.borderRadius; */
+    
+    background-color: #fff;
+    
+    margin-left: 0;
+    width: 600px;
+    height:90%;
+    border:2px solid black;
+    
+  }
+  
+  .searchIcon {
+    /* padding: "0px 0px 4px 0px", */
+      height: 100%;
+      position: absolute;
+      pointer-events: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* marginBottom:"0%", */
+      /* marginLeft:"615px", */
+        top:0%;
+        right:0%;
+
+      color:white;
+          
+    background-color:black;
+    width:46px;
+    }
+
+.Searchgrid{
+
+    margin-left: 15px !important;
+  }
+
+
+
+
+
+    @media screen and (max-width: 1322px) {
+
+        .select1{
+         width:290px;
+          }
+          .inputLabel{
+            font-size:20px;
+        }
+        .search {
+            width: 500px;
+            height:90%;
+        }       
+      
+    }
+
+    @media screen and (max-width: 1161px) {
+
+        .select1{
+         width:250px;
+          }
+          .inputLabel{
+            font-size:20px;
+        }
+        .search {
+            width: 380px;
+            height:90%;
+        }       
+      
+    }
+
+  @media screen and (max-width: 992px) {
+
+    .select1{
+     width:130px;
+      }
+      .inputLabel{
+        font-size:20px;
+    }
+    .search {
+        width: 150px;
+        height:90%;
+    }       
+    .Searchgrid{
+
+      margin-left: 3px !important;
+    } 
+}
+  
+  @media screen and (max-width: 600px) {
+   
+    .select1{
+        width:100px;
+         }
+         .inputLabel{
+            font-size:15px;
+        }
+        .search {
+            width: 125px;
+            height:90%;
+        }       
+        .Searchgrid{
+
+          margin-left: 2px !important;
+        } 
+        
+  }

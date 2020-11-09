@@ -1,24 +1,38 @@
 import logo from './logo.svg';
 import './App.css';
+import {Header} from './compoent/Header';
+import {Navbar} from './compoent/Navbar';
+import { BrowserRouter as Router, Routes, Route, Link, Outlet, useParams} from "react-router-dom";
+import {ProductGrid} from './compoent/ProductGrid';
+import {ProductDetails} from './compoent/ProductDetails';
+import {Footer} from './compoent/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <Router>
+  
+    <Header/>
+    <br/><br/><br/>
+    <Navbar/>
+    <br/><br/><br/>
+    
+
+
+    <Routes>
+
+  {/* <Route path="/" element={<Products/>}> */}
+  <Route path="/" element={<ProductGrid/>} />
+  <Route path=":productid" element={<ProductDetails/>} />
+  {/* </Route> */}
+
+</Routes>
+
+<Footer/>
+</Router>
+
+
+
   );
 }
 

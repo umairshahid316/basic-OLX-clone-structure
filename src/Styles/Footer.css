@@ -1,0 +1,47 @@
+.footerText1{
+
+    margin-left:45px;
+    margin-top:17px;
+    font-size: 15px;
+
+}
+
+.footerText2{
+     right:0%;
+     position:absolute;
+      margin-right:45px;
+      margin-top:17px;
+      font-size: 15px;
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .footerText1{
+        margin-left:5px;
+        font-size: 12px;
+  
+    }
+    .footerText2{
+          margin-right:5px;
+          font-size: 12px;
+
+        }
+      
+}
+  
+
+  @media screen and (max-width: 600px) {
+    .footerText1{
+        margin-left:5px;
+        font-size: 11px;
+  
+    }
+    .footerText2{
+          margin-right:5px;
+          font-size: 11px;
+
+        }
+    
+  }

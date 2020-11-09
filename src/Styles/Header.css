@@ -1,0 +1,61 @@
+.appBr{
+    background-color:#ebeeef !important; 
+    width:100% !important;
+     color:black !important;    
+}
+
+.btn{
+    margin-left:12px;
+   
+}
+
+.logo{
+    height:45px;
+     width:45px;
+}
+
+.btnSell{
+    border-bottom:5px solid blue !important;
+    border-right:5px solid blue !important;
+    border-top:5px solid yellow !important;
+    border-left:5px solid yellow !important;
+    width: 122px !important;
+    height: 52px !important;
+
+}
+
+
+@media screen and (max-width: 1322px) {
+  
+}
+@media screen and (max-width: 1161px) {
+  
+}
+@media screen and (max-width: 992px) {
+    .btn{
+        margin-left:"0px";
+    } 
+    .logo{
+        height:30px;
+         width:30px;
+    }
+    .btnSell{
+        width: 100px !important;
+        height: 52px !important;
+    }
+    
+}
+ @media screen and (max-width: 600px) {
+    .btn{
+        margin-left:"0px";
+    }
+    .logo{
+        height:30px;
+         width:30px;
+    }
+    .btnSell{
+        width: 70px !important;
+        height: 52px !important;
+    }
+
+  }

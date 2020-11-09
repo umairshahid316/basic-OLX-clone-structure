@@ -1,0 +1,116 @@
+.mainImg{
+
+    height: 500px;
+     width:870px;
+     margin-left:35px;
+    border:1px solid black;
+}
+
+.Description{
+    margin-left:35px; 
+    border: 2px solid grey;
+     width:870px;
+      margin-right:25px;
+}
+
+.Sidebox{
+    margin-left:25px;
+     border:2px solid grey;
+     background-color:#fff;
+      margin-right:25px;
+      width: 90%;
+}
+
+.SellerBtn{
+    background-color:black !important;
+     color:white !important;
+      padding:8px !important;
+       width:350px ;
+       }
+
+
+
+
+
+
+@media screen and (max-width: 1322px) {
+    .mainImg{
+        height: 450px;
+        width:740px;
+        margin-left:30px;
+    }  
+    .Description{
+        margin-left:30px; 
+        margin-right:20px;
+        width:740px;
+
+    }
+    .Sidebox{
+        margin-left:20px;
+        margin-right:20px;
+        width: 90%;
+    }
+    .SellerBtn{
+       width:310px;
+     }
+    
+    
+}
+@media screen and (max-width: 1161px) {
+    .mainImg{
+        height: 400px;
+        width:640px;
+        margin-left:30px;
+    }  
+    .Description{
+        margin-left:30px; 
+        margin-right:20px;
+        width:640px;
+
+    }
+    .Sidebox{
+        margin-left:25px;
+        margin-right:20px;
+        width: 85%;
+    }
+    .SellerBtn{
+        width:210px;
+      }
+}
+@media screen and (max-width: 992px) {
+    .mainImg{
+        height: 350px;
+        width:550px;
+        margin-left:20px;
+    }  
+    .Description{
+        margin-left:20px; 
+        margin-right:20px;
+        width:550px;
+
+    }
+    .Sidebox{
+        margin-left:25px;
+        margin-right:20px;
+        width: 80%;
+    }   
+  
+}
+ @media screen and (max-width: 600px) {
+    .mainImg{
+        height: 300px;
+        width:450px;
+        margin-left:15px;
+    }  
+    .Description{
+        margin-left:15px; 
+        margin-right:20px;
+        width:450px;
+
+    }
+    .Sidebox{
+        margin-left:25px;
+        margin-right:20px;
+        width: 85%;
+    }   
+  }
